@@ -1,4 +1,6 @@
-ll HTML files in the current directory
+#!/bin/bash
+
+#ll HTML files in the current directory
 
 html_files=$(find . -type f -name "*.html")
 
