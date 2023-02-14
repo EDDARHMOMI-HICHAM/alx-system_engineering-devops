@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | awk 'BEGIN{ ORS=", "; print "./, ../"; } $1 ~ /^[0-9A-Za-z]/ { print $1 } END{ print "\n" }'
+ls -amvp
