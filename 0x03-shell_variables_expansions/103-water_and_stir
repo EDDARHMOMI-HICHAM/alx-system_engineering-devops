@@ -1,2 +1,2 @@
 #!/bin/bash
-BESTCHOL=$(echo "ibase=water; obase=bestchol; $WATER + ibase=stir; $STIR" | bc)
+WATER
