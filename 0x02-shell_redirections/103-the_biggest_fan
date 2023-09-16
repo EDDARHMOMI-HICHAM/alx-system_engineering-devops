@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'NR>1{count[$1]++} END{for (i in count) print i,count[i];}' | sort -nrk2 | head -11
